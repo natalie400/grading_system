@@ -75,7 +75,7 @@ def compute_avg(scores: list[float]) -> float:
 
 
 def generate_results_table(names: list[str], scores: list[float]) -> None:
-    print("\n=== Student Results ===")
+    print("\nStudent Results ")
 
     print(f"{'Name':<15} {'Score':<10} {'Grade'}")
 
@@ -102,7 +102,7 @@ def generate_results_table(names: list[str], scores: list[float]) -> None:
 def main():
     print("=== Grading System ===")
 
-    course = "Data Structures and Algorithms"
+    course = "DSA"
 
     print(f"Course: {course}")
 

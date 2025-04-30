@@ -15,5 +15,5 @@ class DateCalculator:
         day= (self.day+(13*(self.month+1))//5+k+(k//4)+j//4+5*j)%7
         return self.daysOfTheWeek[day]
 
-datecalculator1=DateCalculator(8,7,2006)
+datecalculator1=DateCalculator(8,7,2005)
 print(datecalculator1.getDay())
